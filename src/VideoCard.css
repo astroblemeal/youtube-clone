@@ -7,5 +7,16 @@
 .videoCard_thumbnail {
   height: 140px;
   width: 250px;
+  object-fit: cover;
+}
+
+.videoCard_info {
+  display: flex;
+  margin-top: 10px;
+  padding-right: 30px;
+}
+
+.videoCard_text {
+  margin-left: 14px;
 }
 
