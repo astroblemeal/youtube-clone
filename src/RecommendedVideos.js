@@ -6,23 +6,18 @@ import VideoCard from "./VideoCard";
 function RecommendedVideos() {
   return (
     <div className="recommendedVideos">
-
-
         <h2> Recommended</h2>
-
         <div className="recommendedVideos_videos">
-
-
-    <a href="http://google.com">
-      <VideoCard
-        title="John Mayer Tomo Fujita Berklee"
-        views="2.4m"
-        timestamp="4 months ago"
-        channel="TomFujitaMusic"
-        channelImage="https://yt3.ggpht.com/a/AATXAJxU_3TzgawKDPE-6wH3SWYCKHxUcCZ7_h449rBU=s48-c-k-c0xffffffff-no-rj-mo"
-        image="https://lh3.googleusercontent.com/m7XqaB3j4LSY2PIM_XNnTCr0Q38cwR_NEink5pdKpz2N-YKYGiFltrImHLngdvezWrkV=s151"
-      />
-    </a>
+          <a href="https://www.youtube.com/watch?v=U-MAYC4k15Y">
+          <VideoCard
+            title="John Mayer Tomo Fujita Berklee"
+            views="2.4m"
+            timestamp="4 months ago"
+            channel="TomFujitaMusic"
+            channelImage="https://yt3.ggpht.com/a/AATXAJxU_3TzgawKDPE-6wH3SWYCKHxUcCZ7_h449rBU=s48-c-k-c0xffffffff-no-rj-mo"
+            image="https://lh3.googleusercontent.com/m7XqaB3j4LSY2PIM_XNnTCr0Q38cwR_NEink5pdKpz2N-YKYGiFltrImHLngdvezWrkV=s151"
+            />
+        </a>
 
       <a href="https://www.youtube.com/watch?v=SD3WKbXhm6M&t=1s">
         <VideoCard
@@ -100,9 +95,6 @@ function RecommendedVideos() {
               image="https://lh3.googleusercontent.com/GBw4E1YAECsfHX9XYG6fEpUjVLZ777qmvPtQW-cygKhkjhufr502TgAxu-hql36U3Oja=s151"
           />
         </a>
-
-
-
 
       </div>
     </div>
